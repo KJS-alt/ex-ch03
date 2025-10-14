@@ -1,20 +1,18 @@
 package com.example.demo.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.controller.service.ExService;
+import com.example.demo.service.ExService;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController
 public class ExController {
-	
+
+    @Autowired
 	ExService exService;
-	public ExController(ExService exService) {
-		this.exService = exService;
-	}
 
 //	@GetMapping("/")
 //	public String getMethodName() {
@@ -66,7 +64,24 @@ public class ExController {
 	public String getEx331(){
 		return exService.ex331();
 	}
-	
+
+    @GetMapping("/ex332")
+    public String ex332(){ return exService.ex332(); }
+
+    @GetMapping("/ex333")
+    public String ex333() { return exService.ex333(); }
+
+    @GetMapping("/ex335")
+    public String ex335() { return exService.ex335(); }
+
+    @GetMapping("/ex336")
+    public String ex336() { return exService.ex336(); }
+
+    @GetMapping("/ex337")
+    public String ex337() { return exService.ex337(); }
+
+    @GetMapping("/ex338")
+    public String ex338() { return exService.ex338(); }
 //	@GetMapping("/ex332")
 //	public String getEx332(){
 //		return exService.ex332();
