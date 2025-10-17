@@ -14,3 +14,5 @@
 2025-10-17T14:20:27.999+09:00  INFO 12216 --- [ex-ch03] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-10-17T14:20:27.999+09:00  INFO 12216 --- [ex-ch03] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-10-17T14:20:28.000+09:00  INFO 12216 --- [ex-ch03] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-17T14:51:39.915+09:00  INFO 12216 --- [ex-ch03] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T14:51:39.915+09:00  INFO 12216 --- [ex-ch03] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
